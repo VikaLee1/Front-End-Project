@@ -1,0 +1,19 @@
+#nav{
+    position: absolute;
+    z-index:1 ;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.imgbox{
+    height: 8rem;
+    width: 8rem;
+}
+
+.navimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
