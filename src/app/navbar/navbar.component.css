@@ -1,32 +1,33 @@
-#nav{
+#nav {
     position: absolute;
-    z-index:1 ;
+    z-index: 1;
     color: white;
     text-shadow: 2px 2px 2px black;
     font-size: 1.5rem;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
-.imgbox{
+.imgbox {
     height: 8rem;
     width: 8rem;
 }
 
-.navimg{
+.navimg {
     height: 100%;
     width: 100%;
     object-fit: cover;
     margin-left: 50px;
 }
 
-.newcolor{
+.newcolor {
     background-color: white;
 }
 
-a:active{
+a:active {
     background-color: white;
 }
 
-.padd{
+.padd {
     padding-left: 100px;
 }
