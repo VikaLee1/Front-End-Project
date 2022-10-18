@@ -1,3 +1,4 @@
+
 .text-start{
     
     font-style: italic;
@@ -16,4 +17,16 @@
 .container{
     height: 300px;
    
+=======
+.text-start {
+    margin-left: 5px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-end {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+
 }
