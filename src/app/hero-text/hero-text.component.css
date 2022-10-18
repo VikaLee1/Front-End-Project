@@ -1,13 +1,21 @@
-.text-start{
-    margin-left: 5px;
-    font-style: italic;
-    
+.container{
+height: 200px;
 }
 
-    
 
-.text-end{
-    margin-right: 5px;
+   
+
+.text-start {
+  
     font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
 }
 
+.text-end {
+    
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 200px;
+
+}
