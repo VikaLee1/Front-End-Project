@@ -17,3 +17,11 @@
     width: 100%;
     object-fit: cover;
 }
+
+.newcolor{
+    background-color: white;
+}
+
+a:active{
+    background-color: white;
+}
