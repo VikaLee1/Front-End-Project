@@ -16,4 +16,17 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    margin-left: 50px;
+}
+
+.newcolor{
+    background-color: white;
+}
+
+a:active{
+    background-color: white;
+}
+
+.padd{
+    padding-left: 100px;
 }
