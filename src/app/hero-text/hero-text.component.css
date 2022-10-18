@@ -1,13 +1,19 @@
 .text-start{
-    margin-left: 5px;
+    
     font-style: italic;
+    margin-top: 40px;
     
 }
 
     
 
 .text-end{
-    margin-right: 5px;
+     
     font-style: italic;
+    margin-top: 200px;
 }
 
+.container{
+    height: 300px;
+   
+}
