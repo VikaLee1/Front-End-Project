@@ -16,6 +16,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    margin-left: 50px;
 }
 
 .newcolor{
@@ -24,4 +25,8 @@
 
 a:active{
     background-color: white;
+}
+
+.padd{
+    padding-left: 100px;
 }
