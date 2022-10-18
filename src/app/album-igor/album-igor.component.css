@@ -1,29 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.row .column {
-    flex: 33, 3%;
-    width: auto;
-    overflow: hidden;
-}
-
-.row .column img {
-    width: 100%;
-    height: 100%;
-}
-
-.image {
+img {
+    width: 480px;
+    height: 550px;
+    padding: 5px;
+    border: 1px white;
     display: block;
-    width: 100%;
+    border-radius: 5px;
 
+}
+
+.pictures {
+    display: flex;
+    max-width: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    object-fit: cover;
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    z-index: 3;
 }
