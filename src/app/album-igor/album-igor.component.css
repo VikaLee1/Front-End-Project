@@ -1,0 +1,25 @@
+img {
+    width: 480px;
+    height: 550px;
+    padding: 5px;
+    border: 1px white;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.pictures {
+    display: flex;
+    max-width: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    object-fit: cover;
+    justify-content: center;
+    background-color: black;
+    padding: 5px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    z-index: 3;
+}

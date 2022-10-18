@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    margin-top: 258px;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fff;
+    background: #363636;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgb(38, 38, 39);
+}
+
+a:link {
+    padding-right: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
