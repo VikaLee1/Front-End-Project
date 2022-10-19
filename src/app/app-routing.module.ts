@@ -1,7 +1,54 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+import { AlbumDusanComponent } from './album-dusan/album-dusan.component';
+import { AlbumIgorComponent } from './album-igor/album-igor.component';
+import { AlbumNikolaComponent } from './album-nikola/album-nikola.component';
+import { AlbumViktoriaComponent } from './album-viktoria/album-viktoria.component';
+import { ContactComponent } from './contact/contact.component';
+import { HeroImgComponent } from './hero-img/hero-img.component';
+import { HeroTextComponent } from './hero-text/hero-text.component';
+import { HomeComponent } from './home/home.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:"",
+    component: HomeComponent,
+  },
+  
+  {
+    path:"couples",
+    component: AlbumIgorComponent
+  },
+  {
+    path:"people",
+    component: AlbumViktoriaComponent
+  },
+  {
+    path:"travel",
+    component: AlbumDusanComponent
+  },
+  {
+    path:"dogs",
+    component: AlbumNikolaComponent
+  },
+
+  {
+    path: "testimonials",
+    component: TestimonialsComponent
+  },
+
+  {
+    path: "about",
+    component: AboutComponent
+  },
+  {
+    path: "contact",
+    component: ContactComponent
+  }
+  
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

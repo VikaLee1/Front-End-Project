@@ -9,3 +9,6 @@
     object-fit:cover;
 }
 
+#carouselExampleIndicators{
+    margin-top: -180px;
+}
