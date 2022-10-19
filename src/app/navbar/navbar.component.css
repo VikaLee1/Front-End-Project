@@ -1,5 +1,4 @@
 #nav {
-    
     z-index: 1;
     color: white;
     text-shadow: 2px 2px 2px black;
@@ -8,13 +7,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-.imgbox{
+.imgbox {
     height: 4rem;
     width: 4rem;
     margin-top: 10px;
 }
-
 
 .navimg {
     height: 100%;

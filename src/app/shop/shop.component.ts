@@ -19,7 +19,7 @@ export class ShopComponent implements OnInit {
   }
 
   addToCart(product:IProducts){
-    alert("you add this dish to the cart")
+    alert("You add this service to the cart")
     this.cs.addToCart(product)
   }
 
