@@ -12,3 +12,10 @@ h5 {
     font-family: 'Poppins', sans-serif;
 }
 
+.cursorLink {
+    cursor: pointer;
+}
+
+.cursorLink:hover {
+    font-size: x-large;
+}

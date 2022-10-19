@@ -3,40 +3,52 @@
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-10">
 
+
+
+
+
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <h3 class="fw-normal mb-0 text-black">Shopping Cart</h3>
-                    <p class="mb-0">You have service in your cart</p>
                 </div>
 
 
 
-                <!-- <div *ngFor="let item of items; index as i">  -->
+                <!-- add index as i for deleting item from the cart -->
+                <div *ngFor="let item of items">
 
-                <div class="card rounded-3 mb-4">
-                    <div class="card-body p-4">
-                        <div class="row d-flex justify-content-between align-items-center">
-                            <div class="col-md-2 col-lg-2 col-xl-2">
-                                <img src="" class="img-fluid rounded-3" alt="Here is the picture">
-                            </div>
-                            <div class="col-md-3 col-lg-3 col-xl-3">
-                                <p class="lead fw-normal mb-2">Some Text</p>
-                                <p><span class="text-muted">Some text </span>here <span class="text-muted"> and here</span>and here if we need it</p>
-                            </div>
-                            <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
-                                <p class="lead fw-normal mb-2">or here some Text</p>
-                            </div>
-                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
-                                <h5 class="mb-0">Here goes the price</h5>
-                            </div>
-                            <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                <a href="#!" class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <p class="mb-0">You have your {{item.name}} cart</p>
+                    </div>
+
+
+                    <div class="card rounded-3 mb-4">
+                        <div class="card-body p-4">
+                            <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                    <img src="{{item.img}}" class="img-fluid rounded-3" alt="{{item.name}}">
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                    <p class="lead fw-normal mb-2">Some Text</p>
+                                    <p><span class="text-muted">Some text </span>here <span class="text-muted"> and here</span>and here if we need it</p>
+                                </div>
+                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                    <p class="lead fw-normal mb-2">or here some Text</p>
+                                </div>
+                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                    <h5 class="mb-0">{{item.price | currency:"EUR"}}</h5>
+                                </div>
+                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+
+                                    <!-- <a class="text-danger" (click)="clearItem(i)"><i class="fas fa-trash fa-lg"></i></a>  -->
+                                    <a class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
-
-
-                <!-- </div> -->
 
 
                 <div class="card mb-4">
@@ -49,21 +61,30 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-body">
-                        <button type="button" class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+
+                <div class="card rounded-3 mb-4">
+                    <div class="card-body p-4">
+
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <div class="col-md-6 col-lg-6 col-xl-6">
+                                <p class="lead fw-normal mb-2 bold">Total amount (including VAT)</p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-4 offset-md-3">
+                                <h5 class="mb-0">
+                                    <p class="lead fw-normal mb-2">here is the total price</p>
+                                </h5>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
 
-
+                <!-- Forms template -->
 
                 <div class="card rounded-3 mb-4">
-
-
-                    <!-- Forms template -->
-                    <!-- 
                     <div class="card-body p-4">
-                        <h2>Order Form</h2>
+                        <p>Order Form</p>
+                        <!--
                         <p>Please fill up the info for the delivery</p>
                         <div class="row d-flex justify-content-between align-items-center">
                             <form [formGroup]="info" (ngSubmit)="onSubmit()">
@@ -73,24 +94,20 @@
                                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="fullName">
                                 </div>
 
-                                <p><label for="address">Adress: </label></p>
-                                <div class="input-group mb-3">
-                                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" formControlName="adress">
-                                </div>
-
                                 <input type="submit" class="btn btn-warning btn-block btn-lg" value="Proceed to Pay" routerLink="/success">
-
-
 
                             </form>
 
-                        </div>
-                    </div> -->
+                        </div> -->
 
-
-
+                    </div>
                 </div>
 
+                <div class="card">
+                    <div class="card-body">
+                        <button type="button" class="btn btn-warning btn-block btn-lg">Proceed to Pay</button>
+                    </div>
+                </div>
 
             </div>
         </div>
