@@ -5,10 +5,13 @@ import { AlbumDusanComponent } from './album-dusan/album-dusan.component';
 import { AlbumIgorComponent } from './album-igor/album-igor.component';
 import { AlbumNikolaComponent } from './album-nikola/album-nikola.component';
 import { AlbumViktoriaComponent } from './album-viktoria/album-viktoria.component';
+import { CartComponent } from './cart/cart.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeroImgComponent } from './hero-img/hero-img.component';
 import { HeroTextComponent } from './hero-text/hero-text.component';
 import { HomeComponent } from './home/home.component';
+import { ShopComponent } from './shop/shop.component';
+import { SuccessComponent } from './success/success.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 const routes: Routes = [
@@ -46,7 +49,22 @@ const routes: Routes = [
   {
     path: "contact",
     component: ContactComponent
-  }
+  },
+
+  {
+    path:"cart",
+    component:CartComponent
+  },
+
+ {
+  path:"success",
+  component: SuccessComponent
+ },
+
+ {
+  path:"shop",
+  component: ShopComponent
+ }
   
 ];
 

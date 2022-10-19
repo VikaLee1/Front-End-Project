@@ -5,7 +5,7 @@ export const products = [
 
         name: 'Wedding Photo Session',
 
-        img: "assets/cartpics/weding.jpg",
+        img: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 
         price: 500,
 
@@ -19,7 +19,7 @@ export const products = [
 
         name: 'Portrait Poto Session',
 
-        img: "assests/cartpics/portrait.jpg",
+        img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 
         price: 300,
 
