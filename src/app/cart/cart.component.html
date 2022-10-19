@@ -14,7 +14,7 @@
 
 
                 <!-- add index as i for deleting item from the cart -->
-                <div *ngFor="let item of items">
+                <div *ngFor="let item of items; index as i">
 
                     <div class="card rounded-3 mb-4">
                         <div class="card-body p-4">
@@ -34,7 +34,7 @@
                                 <div class="col-md-1 col-lg-1 col-xl-1 text-end">
 
                                     <!-- <a class="text-danger" (click)="clearItem(i)"><i class="fas fa-trash fa-lg"></i></a>  -->
-                                    <a class="text-danger"><i class="fas fa-trash fa-lg"></i></a>
+                                    <a class="text-danger" (click)="clearItem(i)"><i class="fas fa-trash fa-lg"></i></a>
 
                                 </div>
                             </div>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-4 offset-md-3">
                                 <h5 class="mb-0">
-                                    <p class="lead fw-normal mb-2">here is the total price</p>
+                                    <p class="lead fw-normal mb-2">{{totalprice | currency:"EUR"}}</p>
                                 </h5>
                             </div>
 

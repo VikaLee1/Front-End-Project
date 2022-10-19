@@ -1,6 +1,7 @@
 .home-testimonial {
     background-color: #231834;
-    height: 380px
+    height: 380px;
+    margin-top: 100px;
 }
 
 .home-testimonial-bottom {
@@ -72,5 +73,3 @@
 .home-testimonial {
     font-family: 'Poppins', sans-serif;
 }
-
-

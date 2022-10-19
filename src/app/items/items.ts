@@ -33,7 +33,7 @@ export const products = [
 
         name: 'Travel Photo Session',
 
-        img: "assets/cartpics/travel.jpg",
+        img: "assets/viktoriaPictures/travel.jpg",
 
         price: 500,
 

@@ -6,7 +6,7 @@
 /* Part 1 - hero section - behind the lens */
 
 .background_box {
-    background-image: url("/assets/aboutHero.jpg");
+    background-image: url("/assets/viktoriaPictures/behind_the_lens.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 300px;
@@ -14,23 +14,25 @@
 }
 
 .overlayText {
-    margin-top: 250px;
+    margin-top: 370px;
+    color: #383838;
 }
 
 
 /*  Part 2 - a little bit about me */
 
 .aboutsection {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 50px;
 }
 
-.aboutText {
+
+/* .aboutText {
     margin-top: 80px;
-}
+} */
 
 .aboutSection1 {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 
@@ -49,11 +51,11 @@
 }
 
 .btn-link {
-    color: #9F8772 !important;
+    color: #B2B2B2!important;
 }
 
 .nav-link:hover {
-    color: #9F8772!important;
+    color: #B2B2B2 !important;
 }
 
 .navpillstext1 {
@@ -63,9 +65,13 @@
 }
 
 .navpillstext {
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 .navPills {
     margin: 0 auto;
+}
+
+#textposition {
+    padding-top: 70px;
 }

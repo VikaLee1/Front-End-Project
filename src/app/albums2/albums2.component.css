@@ -15,3 +15,11 @@ h5 {
 .albumsstyling {
     margin-bottom: 100px;
 }
+
+.cursorLink {
+    cursor: pointer;
+}
+
+.cursorLink:hover {
+    font-size: x-large;
+}

@@ -1,6 +1,6 @@
 #nav {
     z-index: 1;
-    color: white;
+    color: #674747;
     text-shadow: 2px 2px 2px black;
     font-size: 1.5rem;
     width: 100%;
@@ -21,13 +21,17 @@
 }
 
 .newcolor {
-    background-color: white;
+    background-color: #B2B2B2;
 }
 
 a:active {
-    background-color: white;
+    background-color: #B2B2B2;
 }
 
 .padd {
     padding-left: 100px;
+}
+
+.bgcolor {
+    background-color: #B2B2B2 !important;
 }
