@@ -18,6 +18,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { CartComponent } from './cart/cart.component';
+import { ShopComponent } from './shop/shop.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     PortfolioComponent,
     FooterComponent,
     ContactComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    CartComponent,
+    ShopComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
