@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { products } from '../items/items';
 import { IProducts } from '../items/InterfaceItems';
 import { ServiceService } from '../service.service';
+import { FormControl,FormGroup,Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cart',
@@ -25,4 +26,17 @@ clearItem(i:number) {
   this.totalprice=this.cs.getTotal();
 }
 
+  orderForm = new FormGroup(
+    {
+      name: new FormControl('',Validators.required),
+      email: new FormControl('',Validators.required)
+    }
+  )
+
+  onSubmit(){
+    let val: any=""
+    if(this.orderForm.valid){
+      val = this.orderForm.value;
+    }
+  }
 }
