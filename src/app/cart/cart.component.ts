@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { products } from '../items/items';
 import { IProducts } from '../items/InterfaceItems';
+import { ServiceService } from '../service.service';
 
 @Component({
   selector: 'app-cart',
@@ -11,9 +12,11 @@ export class CartComponent implements OnInit {
 // defyning the array for the cards in the shopping cart
 items:Array<IProducts>=[];
 
-  constructor() { }
+  constructor(private cs: ServiceService) { }
 
   ngOnInit(): void {
+   this.items=this.cs.showProduct();
   }
+
 
 }
