@@ -1,8 +1,12 @@
 <div class="container albumsSection">
     <div class="row">
+
         <div class="col-md-6 col-6 albums1">
-            <div class="card text-bg-dark">
+            <div class="card text-bg-dark" routerLink="/couples">
+
                 <img src="../assets/igorPicture/pic22.jpg" class="card-img albumimg w-100" alt="image">
+
+
                 <div class="card-img-overlay">
                     <div class="position-absolute bottom-0 start-50 translate-middle-x">
                         <!-- Connect to album-igor-component -->
@@ -11,9 +15,15 @@
                 </div>
             </div>
         </div>
+
         <div class=" col col-md-6 col-6 albums2">
-            <div class="card text-bg-dark">
-                <img src="../assets/viktoriaPictures/1.jpeg" class="card-img albumimg w-100" routerLink="/people" alt="image">
+            <div class="card text-bg-dark" routerLink="/people">
+
+                <a routerLink="/people">
+                    <img src="../assets/viktoriaPictures/1.jpeg" class="card-img albumimg w-100" alt="image">
+                </a>
+
+
                 <div class="card-img-overlay">
                     <div class="position-absolute bottom-0 start-50 translate-middle-x">
                         <!-- Connect to album-viktoria-component -->
@@ -22,4 +32,6 @@
                 </div>
             </div>
         </div>
+
     </div>
+</div>

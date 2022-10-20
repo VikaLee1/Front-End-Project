@@ -1,4 +1,13 @@
 .container-fluid {
     height: 100vw;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonColor {
+    background-color: #7882A4;
+}
+
+.buttonColor:hover {
+    color: black;
 }

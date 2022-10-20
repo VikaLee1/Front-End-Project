@@ -1,0 +1,26 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonColor {
+    background-color: #7882A4;
+}
+
+.buttonColor {
+    background-color: #7882A4;
+}
+
+.background_box {
+    background-image: url("/assets/viktoriaPictures/20.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+    padding: 200px;
+    margin-bottom: 50px;
+    /* opacity: 50%; */
+}
+
+.overlayText {
+    margin-top: 200px;
+    color: white;
+}
